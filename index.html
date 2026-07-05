@@ -1037,7 +1037,7 @@
       const COMPRESSED_PREFIX = "ASEC1:";
       const BINARY_PREFIX = "ASEB4:";
       const LEGACY_BINARY_PREFIXES = ["ASEB3:", "ASEB2:", "ASEB1:"];
-      const DEFAULT_ARCHIVE_TEXT = "ASEC1:QVNFQwEAAAu/AEFTRUIEAQAMAOWOn+eJiOmiAJjpm4YCAwA3AAAKVHV0b3JpAGFsLTECAgQBNAAIAQQAABQCJjICVAIBAikBAiIBADAEYQKoMwICAgKrAsECYQBQAwAAAQEBAwY0GAQEAwMLArEAAwEAAQAACAACAwMAAAIAAwEDAAZRA3g1AwMDfAMDcQJhADACAAECBuEDFjaEAwMJjAQAAEgMMagCAAUCuDcCvgUCt6oCArc4Ar4GArcBArcKOQK+BwsjAgAABAgBAQEDEQdTdGEAcnQtMQQEBAFsAAUA0Rj0BBchDZEDAgIN4AgBAAMDADMbsANSMkwGQQNkAQBqCQYUAQWwAgNSAsIzBkwXkQLGCgAAAREkAAMGEAYCAsAFAYUGcAIDJTRMBAQF6aALAAAIEBbCBwZBFAcCCKVSCK5FAQBAAQEBAQAEAmUztlIcYQJmDR+iIlAFBYGHHOEISAWMDgAAgCZBaAEABxPVNQqXJPAMAAAPAACYGQACIQfwBQIBAxxhC0wAb2JieS1XZXMcdEEFYgERBOAQAACuIAOQHGEI4QYC+EITsh0C+IgTsCfyKxICAgDkCAcDVEVhBk8iUwXg9gQZwwL3QgL+BfEUEAZxEAUFAA8JNlN3YfpwBi8oMGE6giBCAMEDm/UGzygjcwMbNAMzCbAGwXs+cQn7AhMgA3AGgQMrQi8DLwKxDVEDIRADIk5veHJ0aAZRMFIQSzBxA54EDaAAUCrABaAHBgQNCkIEDwAM0AIABAJUAgEAYQIAYQMAYAACDAQCU291dGgxDR5ODBTTKSADAAgCjAEDGMEDaDIFBQcucBAAAAUbgSGQG+EE5TtQAzaRAwMAYB+TC6EfC18DYgfgOYALoAAGARFRoQEADgOyVG93gGVyVG9wAggD5wANABEAEgATAAAUABUAFgAXAAAYABkAGgAbABgcAB1ZURSxBgYACAEFAAnABwADAQACAQMABAYABj8hwEhgDkAAwBoQBNAACC0IgAMIEUsgBwhwAwB0AAcDETJFYgMhC9AfMAAAQdALgSejBAaFDDEGAwMzTAUFAwhwIAAAwABQFoFIcgmwBgAEBFKwBiNSAyrAHwAABIJAQ1FIcjoCIKADAMEGQwMrIgBUAHlmMAMF4gIY4AaYAwQDEJADIjRSHHGVAyUjWBMFANAIBmxDp1zgEyAAwAMDNdAGLsD0LTE04QQAwBNQF+A+0eEx0AcEAAcCURKUANAFBWAlb0MCAAAHBUABAgMABQVEMAQuAAMDWvMDBSZSowADpAAGb7EFBHMQBQMErDRMDDIDBCcMOAlEcYELcAIABgUBASjwP4AgB9AJ4hMzCeoTMQEA1AkEDvAINHEIDQQWUJMPZAMjIwgHAQEESrCVTgAFBwAFL8EFBTDgkAMEAAgvMS0xaOPbAOEEAB0vZkVgAiOUM3E0BQUDhVIy4gOICBDZA4IEBlwDR3AHczEHBY4yEfIDgg+QKwAsGmG/CyEwoAuAK4AYoAsgBjwBz3QABCMiQgQrAIEEIkJUFAQGCMAFfdEJAgIKBAVBCwQiRXh0chhhCgoJ4ARae+8NQMDee++9NwCgAAFhwQkHAAIHAAmCAy1gCQUABwcYYAIMBIJGaW5hbGUEBwcQhwQAJAAoQQTS4SAAADAGQAAgAgUACAUI8AkFiTUgBgImcAkGAYQAAAEAB1RoZSBFBG5kK9EGRXNjYcRwZQxgHgAwV2YzQhE2cQAABVdgAAUAwgcMkS0xBgYIIADRtRigL4t0BjNkdQIEKED+BEQAjvEEgDrBBGJUEwRoVSqhBAAwByoxBR0hB2UgoQQDlTMIT5EH+YCBCAEQAAkAAQZHQCFKcAEAAwYQIQMAEggdwQUHB/AGBAC6B0AiBhrxXgAFtDQJTpgGAGAJEHjSAQR/cd4EDQAV8DFAA5E1ET8AETWfkQYT4QaO4SKABAAcBwURwQlxnbADAAgABg==";
+      const DEFAULT_ARCHIVE_TEXT = "ASEC1:QVNFQwEAAAu/AEFTRUIEAQAMAOWOn+eJiOmiAJjpm4YCAwA3AAAKVHV0b3JpAGFsLTECAgQBNAAIAQQAABQCJjICVAIBAikBAiIBADAEYQKoMwICAgKrAsECYQBQAwAAAQEBAwY0GAQEAwMLArEAAwEAAQAACAACAwMAAAIAAwEDAAZRA3g1AwMDfAMDcQJhADACAAECBuEDFjaEAwMJjAQAAEgMMagCAAUCuDcCvgUCt6oCArc4Ar4GArcBArcKOQK+BwsjAgAABAgBAQEDEQdTdGEAcnQtMQQEBAFsAAUA0Rj0BBchDZEDAgIN4AgBAAMDADMbsANSMkwGQQNkAQBqCQYUAQWwAgNSAsIzBkwXkQLGCgAAAREkAAMGEAYCAsAFAYUGcAIDJTRMBAQF6aALAAAIEBbCBwZBFAcCCKVSCK5FAQBAAQEBAQAEAmUztlIcYQJmDR+iIlAFBYGHHOEISAWMDgAAgCZBaAEABxPVNQqXJPAMAAAPAACYGQACIQfwBQIBAxxhC0wAb2JieS1XZXMcdEEFYgERBOAQAACuIAOQHGEI4QYC+EITsh0C+IgTsCfyKxICAgDkCAcDVEVhBk8iUwXg9gQZwwL3QgL+BfEUEAZxEAUFAA8JNlN3YfpwBi8oMGE6giBCAMEDm/UGzygjcwMbNAMzCbAGwXs+cQn7AhMgA3AGgQMrQi8DLwKxDVEDIRADIk5veHJ0aAZRMFIQSzBxA54EDaAAUCrABaAHBgQNCkIEDwAM0AIABAJUAgEAYQIAYQMAYAACDAQCU291dGgxDR5ODBTTKSADAAgCjAEDGMEDaDIFBQcucBAAAAUbgSGQG+EE5TtQAzaRAwMAYB+TC6EfC18DYgfgOYALoAAGARFRoQEADgOyVG93gGVyVG9wAggD5wANABEAEgATAAAUABUAFgAXAAAYABkAGgAbABgcAB1ZURSxBgYACAEFAAnABwADAQACAQMABAYABj8hwEhgDkAAwBoQBNAACC0IgAMIEUsgBwhwAwB0AAcDETJFYgMhC9AfMAAAQdALgSejBAaFDDEGAwMzTAUFAwhwIAAAwABQFoFIcgmwBgAEBFKwBiNSAyrAHwAABIJAQ1FIcjoCIKADAMEGQwMrIgBUAHlmMAMF4gIY4AaYAwQDEJADIjRSHHGVAyUjWBMFANAIBmxDp1zgEyAAwAMDNdAGLsD0LTE04QQAwBNQF+A+0eEx0AcEAAcCURKUANAFBWAlb0MCAAAHBUABAgMABQVEMAQuAAMDWvMDBSZSowADpAAGb7EFBHMQBQMErDRMDDIDBCcMOAlEcYELcAIABgUBASjwP4AgB9AJ4hMzCeoTMQEA1AkEDvAINHEIDQQWUEEHCCUAACMIBwEBVgRKsE4ABQcABS/BBUIFMOADBAAILzEtbjFo4wDhBAAdL2ZFYALTI5QzcQUFA4VSMuIDiGQIEAOCBAZcA0dwBztzMQcFMhHyA4IPkCsA/iwaYQshMKALgCuAGKALID4GPAF0AAQjDxIEKwCBUwQiQlQEBgjABX3RCSgCAgQFQQsEIkV4YHRyYQoKCeAEWnsA7w3A3nvvvTcFAKAAYcEJBwACBwgACQMtYAkFAAcKBxhgDASCRmluYRBsZQcHEIcEACQEACgE0uEgAAAwgQZAAAIFAAgFCPAkCQU1IAYCJnAJBgIBhAABAAdUaGUQIEVuZCvRBkVzEGNhcGUMYB4AMEdXZjNCNnEAAAVXYAAIBQAHDJEtMQYG1wggANEYoC+LdAYzZHUC+gQoQAREAI7xBIA6wQRiV1QTBGgqoQQAMAcqMQWVHSEHIKEEA5UzCE+RBQf5gAgBEAAJAAGGBkdASnABAAMGECFIAwAIHcEFBwfwBugEAAdAIgYa8V4ABbRiNAlOBgBgCRB40gF6BH9xBA0AFfAxQAORNdcRPwARn5EGE+EGjuEigHAEAAcFEcEJcZ2wAwAACAY=";
       const CLUE_POSITION_CODE_MAP = Object.fromEntries(CLUE_POSITIONS.map((item, index) => [item, index]));
       const SYMMETRY_ORDER = ["", "H", "V", "B", "D1", "D2", "C", "R"];
       const SYMMETRY_CODE_MAP = Object.fromEntries(SYMMETRY_ORDER.map((item, index) => [item, index]));
@@ -1622,6 +1622,13 @@
         return getLevels(state.playData)[state.currentPlayIndex];
       }
 
+      function getWrapText(level) {
+        if (level.wrapRows && level.wrapCols) return "Wrap：左右连通，上下连通";
+        if (level.wrapRows) return "Wrap：左右连通";
+        if (level.wrapCols) return "Wrap：上下连通";
+        return "Wrap：关闭";
+      }
+
       function getCellFillColor(colorIdx) {
         return COLOR_POOL[colorIdx % COLOR_POOL.length];
       }
@@ -2175,8 +2182,9 @@
       }
 
       function updatePlayInfo(level, result) {
+        const wrapText = getWrapText(level);
         if (state.playData.kind === "single") {
-          el.playMeta.textContent = `${level.name} · ${level.rows}×${level.cols} · 可用颜色 ${level.colors} 种`;
+          el.playMeta.textContent = `${level.name} · ${level.rows}×${level.cols} · 可用颜色 ${level.colors} 种 · ${wrapText}`;
         } else {
           const solvedCount = state.playProgress.solved.filter(Boolean).length;
           const modeText = state.playData.unlockMode === "all"
@@ -2184,7 +2192,7 @@
             : state.playData.unlockMode === "dependency"
               ? `依赖模式，当前解锁 ${getUnlockedCount()} / ${state.playData.levels.length}`
               : `顺序解锁，当前可见 ${getUnlockedCount()} / ${state.playData.levels.length}`;
-          el.playMeta.textContent = `${state.playData.name} · 第 ${state.currentPlayIndex + 1} 题 / ${state.playData.levels.length} · 已通过 ${solvedCount} 题 · ${modeText}`;
+          el.playMeta.textContent = `${state.playData.name} · 第 ${state.currentPlayIndex + 1} 题 / ${state.playData.levels.length} · 已通过 ${solvedCount} 题 · ${modeText} · ${wrapText}`;
         }
 
         const navigator = document.createElement("div");
@@ -2234,10 +2242,10 @@
           });
           const currentName = document.createElement("div");
           currentName.className = "meta";
-          currentName.textContent = `当前题目：${level.section?.trim() ? level.section + " · " : ""}${level.name}`;
+          currentName.textContent = `当前题目：${level.section?.trim() ? level.section + " · " : ""}${level.name} · ${wrapText}`;
           navigator.append(chips, currentName);
         } else {
-          navigator.textContent = level.name;
+          navigator.textContent = `${level.name} · ${wrapText}`;
         }
         el.playNavigator.replaceChildren(navigator);
 
